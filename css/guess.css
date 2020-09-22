@@ -5,7 +5,9 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100vw;
     height: 100vh;
+    background-color: #192a56;
 }
 
 :root {
@@ -18,14 +20,17 @@ h1 {
 }
 
 .card {
-    width: 800px;
-    height: 600px;
+    width: 85%;
+    height: 75%;
     border: 1px solid #000;
     margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #000;
 }
 
 .titre {
@@ -49,6 +54,15 @@ h1 {
     width: 100%;
     height: 33.3334%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#resultat {
+    width: 75%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
